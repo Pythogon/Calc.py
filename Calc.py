@@ -9,7 +9,7 @@ print("""
 """)
 while True:
     time.sleep(1)
-    inp = input("Please enter an equation to calculate! Use 'ans' for last time's answer")
+    inp = input("Please enter an equation to calculate! Use 'ans' for last time's answer: ")
     ans = eval(inp)
     time.sleep(1)
     print(inp,"=",ans)
